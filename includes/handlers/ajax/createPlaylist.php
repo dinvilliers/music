@@ -7,7 +7,7 @@ if(isset($_POST['name']) && isset($_POST['username'])) {
   $username = $_POST['username'];
   $date = date("Y-m-d");
 
-  mysqli_query($con, "INSERT INTO playlists VALUES('', '$name', '$username', '$date')");
+  $query = mysqli_query($con, "INSERT INTO playlists VALUES('', '$name', '$username', '$date')");
 
 }
 
