@@ -21,7 +21,7 @@ include("includes/classes/Playlist.php");
 
 <html>
 <head>
-	<title>Welcome to Slotify!</title>
+	<title>Mozzarella Music</title>
 
  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
